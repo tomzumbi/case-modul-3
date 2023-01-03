@@ -65,7 +65,7 @@ public class Register extends HttpServlet {
             if (registerSevice.checkacc(username)) {
                 resp.sendRedirect("/register?mess=error1");
             } else if (password.equals(repass)) {
-                registerSevice.Adduser(new Account(username, password, email, phonenumber, address, " "," " ," ", 2));
+                registerSevice.Adduser(new Account(username, password, email, phonenumber, address));
                 resp.sendRedirect("/bootstrap/feed/demo.foxthemes.net/instellohtml/home/notice.jsp");
             } else {
                 resp.sendRedirect("/register?mess=error3");

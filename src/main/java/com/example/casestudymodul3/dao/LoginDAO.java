@@ -20,11 +20,10 @@ public class LoginDAO {
             String email = resultSet.getString("email");
             String phone = resultSet.getString("phone");
             String address = resultSet.getString("address");
-            String role = resultSet.getString("role");
-            String status = resultSet.getString("status");
+            int idroles = resultSet.getInt("idroles");
+            int idstatus = resultSet.getInt("idstatus");
             String avatarurl = resultSet.getString("avatarurl");
-            int idrole = resultSet.getInt("idrole");
-            return new Account(username,password,email,phone,address,role,status,avatarurl,idrole);
+            return new Account(username,password,email,phone,address,idroles,idstatus,avatarurl);
         } catch (SQLException e) {
             e.printStackTrace();
         }

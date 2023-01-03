@@ -7,21 +7,28 @@ public class Account {
     private String email;
     private String phonenumber;
     private String address;
-    private String role;
-    private String status;
-    private String avatarurl;
-    private int idrole;
 
-    public Account(String username, String password, String email, String phonenumber, String address, String role, String status, String avatarurl, int idrole) {
+    private int idroles;
+    private int idstatus;
+    private String avatarurl;
+
+    public Account(String username, String password, String email, String phonenumber, String address, int idroles, int idstatus, String avatarurl) {
         this.username = username;
         this.password = password;
         this.email = email;
         this.phonenumber = phonenumber;
         this.address = address;
-        this.role = role;
-        this.status = status;
+        this.idroles = idroles;
+        this.idstatus = idstatus;
         this.avatarurl = avatarurl;
-        this.idrole = idrole;
+    }
+
+    public Account(String username, String password, String email, String phonenumber, String address) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.phonenumber = phonenumber;
+        this.address = address;
     }
 
     public Account(String username, String password) {
@@ -76,20 +83,20 @@ public class Account {
         this.address = address;
     }
 
-    public String getRole() {
-        return role;
+    public int getIdroles() {
+        return idroles;
     }
 
-    public void setRole(String role) {
-        this.role = role;
+    public void setIdroles(int idroles) {
+        this.idroles = idroles;
     }
 
-    public String getStatus() {
-        return status;
+    public int getIdstatus() {
+        return idstatus;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setIdstatus(int idstatus) {
+        this.idstatus = idstatus;
     }
 
     public String getAvatarurl() {
@@ -99,12 +106,5 @@ public class Account {
     public void setAvatarurl(String avatarurl) {
         this.avatarurl = avatarurl;
     }
-
-    public int getIdrole() {
-        return idrole;
-    }
-
-    public void setIdrole(int idrole) {
-        this.idrole = idrole;
-    }
 }
+
