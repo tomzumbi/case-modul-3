@@ -22,6 +22,16 @@ public class Account {
         this.idstatus = idstatus;
         this.avatarurl = avatarurl;
     }
+    public Account(String username, String password, String email, String phonenumber, String address, String avatarurl) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.phonenumber = phonenumber;
+        this.address = address;
+        this.idroles = idroles;
+        this.idstatus = idstatus;
+        this.avatarurl = avatarurl;
+    }
 
     public Account(String username, String password, String email, String phonenumber, String address) {
         this.username = username;

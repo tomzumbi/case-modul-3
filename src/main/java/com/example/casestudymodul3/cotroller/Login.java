@@ -20,7 +20,7 @@ public class Login extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String mess = req.getParameter("mess");
         if (mess != null) {
-            switch (mess){
+            switch (mess) {
                 case "error1":
                     mess = "Incorrect password";
                     req.setAttribute("mess", mess);
@@ -42,11 +42,17 @@ public class Login extends HttpServlet {
         Account account = loginService.checklogin(username);
 
         if (account != null) {
-            if(password.equals(loginService.checkpass(username))) {
-                HttpSession session = req.getSession();
-                session.setAttribute("account", account);
-                resp.sendRedirect("/feed");
-            }else {
+            if (password.equals(loginService.checkpass(username))) {
+                if (!username.equals("manhne")) {
+                    HttpSession session = req.getSession();
+                    session.setAttribute("account", account);
+                    resp.sendRedirect("/feed");
+                }else {
+                    HttpSession session = req.getSession();
+                    session.setAttribute("account", account);
+                    resp.sendRedirect("/feedadmin");
+                }
+            } else {
                 resp.sendRedirect("/login?mess=error1");
             }
         } else {

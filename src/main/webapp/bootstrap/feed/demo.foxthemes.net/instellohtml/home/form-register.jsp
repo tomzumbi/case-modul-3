@@ -96,6 +96,11 @@
                        style="border: 1px solid #d3d5d8 !important;">
 
 
+                <input type="text" name="avatarurl" placeholder="Avatar"
+                       class="bg-gray-200 mb-2 shadow-none  dark:bg-gray-800"
+                       style="border: 1px solid #d3d5d8 !important;">
+
+
 
                 <div class="flex justify-start my-4 space-x-1">
                     <div class="checkbox">
