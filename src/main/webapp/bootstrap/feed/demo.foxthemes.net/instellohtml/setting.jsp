@@ -80,7 +80,7 @@
                 <hr class="-mx-4 -mt-1 uk-visible@s">
                 <ul>
                     <li>
-                        <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp">
+                        <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/feed/feed.jsp">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
                             </svg> 
@@ -136,7 +136,7 @@
                         <hr class="my-2">
                     </li>
                     <li>
-                        <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/form-login.jsp">
+                        <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/home/form-login.jsp">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
                             </svg>
@@ -409,7 +409,7 @@
                                 <li><a href="#"> Account setting </a> </li>
                                 <li><a href="#"> Payments </a> </li>
                                 <li><a href="#"> Help </a> </li>
-                                <li><a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/form-login.jsp"> Log Out</a></li>
+                                <li><a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/home/form-login.jsp"> Log Out</a></li>
                             </ul>
                         </div>
 

@@ -88,7 +88,7 @@
                 <hr class="-mx-4 -mt-1 uk-visible@s">
                 <ul>
                     <li>
-                        <a href="feed.jsp">
+                        <a href="feed/feed.jsp">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -156,7 +156,7 @@
                         <hr class="my-2">
                     </li>
                     <li>
-                        <a href="form-login.jsp">
+                        <a href="home/form-login.jsp">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -431,7 +431,7 @@
                                 <li><a href="#"> Account setting </a> </li>
                                 <li><a href="#"> Payments </a> </li>
                                 <li><a href="#"> Help </a> </li>
-                                <li><a href="form-login.jsp"> Log Out</a></li>
+                                <li><a href="home/form-login.jsp"> Log Out</a></li>
                             </ul>
                         </div>
 
